@@ -8,7 +8,7 @@ from data_quality.DataQuality import DataQuality
 from scipy.sparse import hstack, vstack, csr_matrix
 
 # load model
-model_rf = jb.load("../model/rf_20210620.pkl.z")
+model_rf = jb.load("./model/rf_20210620.pkl.z")
 pipeline = DataQuality()
 
 # instance flask
