@@ -46,6 +46,7 @@ def predict():
 
 	df_raw['prediction'] = pred
 	print("\n\nTamanho do dataframe recebido depois da previsão: {}\n".format(df_raw.shape))
+	print("\nAlteração realizada com sucesso!!\n")
 
 	return df_raw.to_json(orient='records')
 
